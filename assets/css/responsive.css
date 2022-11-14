@@ -80,7 +80,9 @@
         display: none;
     }
 
-
+    #slider{
+        top: 51px;
+    }
 
 
     
@@ -112,8 +114,7 @@
             font-size: 18px;
         }
 
-
-
+    
 
 
 

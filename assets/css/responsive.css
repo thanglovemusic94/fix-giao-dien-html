@@ -1,0 +1,129 @@
+
+@media screen and (max-width: 960px) {
+
+    .header__navbar {
+        background-color: rgba(0, 0, 0, 0.9);
+        position: fixed;
+        left: -100%;
+        top: 0;
+        transition: all 0.5s ease-in-out;
+        z-index: 1;
+        width: 50%;
+        height: 100%;
+    }
+
+    .header__navbar.active {
+        left: 0;
+    }
+
+    #marquee {
+        display: none !important;
+    }
+
+    .set-language {
+        display: none !important;
+    }
+
+    .header__navbar-bottom {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .header__navbar-bottom-left img {
+        display: none;
+    }
+
+    .header__navbar-bottom-center ul {
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .header__navbar-bottom-center ul li {
+        padding: 20px 10%;
+    }
+
+    .header__navbar-bottom-center ul li:first-child {
+        margin-top: 65px;
+    }
+
+    .header__navbar-bottom-right {
+        display: none;
+    }
+
+    .mobile__set-language {
+        display: flex;
+    }
+
+    .mobile__navbar {
+        display: flex;
+    }
+
+    .hamburger {
+        display: block;
+        cursor: pointer;
+    }
+
+    .hamburger.active .bar:nth-child(2) {
+        opacity: 0;
+    }
+
+    .hamburger.active .bar:nth-child(1) {
+        transform: translateY(8px) rotate(45deg);
+    }
+
+    .hamburger.active .bar:nth-child(3) {
+        transform: translateY(-8px) rotate(-45deg);
+    }
+
+    #search__box {
+        display: none;
+    }
+
+
+
+
+    
+
+    @media screen and (max-width: 480px) {
+
+        .header__navbar {
+            width: 70%;
+        }
+
+        .mobile__navbar-logo {
+            width: 70px;
+        }
+
+        .mobile-search__box-content {
+            width: 80%;
+        }
+
+        #mobile-search__box-btn {
+            font-size: 24px;
+        }
+
+        #mobile-search__box .fa-x {
+            top: -10px;
+            right: -40px;
+        }
+
+        #mobile-search__box .fa-x {
+            font-size: 18px;
+        }
+
+
+
+
+
+
+
+        @media screen and (max-width: 240px) {
+
+            body {
+                display: none;
+            }
+        }
+    }
+
+}

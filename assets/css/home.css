@@ -1,0 +1,22 @@
+
+/* ROOT COLOR */
+
+:root {
+    --red-color: #e2012d;
+    --black-color: #1d1d1d;
+    --text-color: #333;
+    --white-color: #fff;
+    --fade-color: #999;
+}
+
+.wrap__slider {
+    width: 100%;
+}
+
+.wrap__slider-item {
+    height: auto;
+}
+
+.wrap__slider-item img {
+    height: 100%;
+}

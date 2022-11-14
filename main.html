@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css"
+        integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!-- link animation here -->
+    <!-- <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" /> -->
+    <title>Document</title>
+    <link rel="stylesheet" href="./assets/css/base.css">
+    <link rel="stylesheet" href="./assets/css/home.css">
+    <link rel="stylesheet" href="./assets/css/responsive.css">
+</head>
+
+<body>
+    <div class="wrap">
+        <header id="header">
+            <!-- mobile navbar responsive -->
+            <div class="mobile__navbar" id="mobile__navbar-id">
+                <div class="mobile__navbar-left">
+                    <div class="hamburger">
+                        <span id="bar1" class="bar"></span>
+                        <span id="bar2" class="bar"></span>
+                        <span id="bar3" class="bar"></span>
+                    </div>
+                    <a href=""><i class="fa-solid fa-user"></i></a>
+                </div>
+                <div class="mobile__navbar-logo">
+                    <a href=""><img src="assets/images/T1_Logo.png" id="mobile-logot1"></a>
+                </div>
+                <ul class="mobile__navbar-right">
+                    <li><a href=""><i class="fa-solid fa-cart-shopping"></i></a></li>
+                    <li><a><i id="mobile-scout-icon" class="fa-solid fa-magnifying-glass"></i></a></li>
+                </ul>
+                <!-- mobile search box responsive -->
+                <form id="mobile-search__box">
+                    <div class="mobile-search__box-content">
+                        <input type="text" id="mobile-search__box-input" placeholder="Type to search..." required>
+                        <input type="submit" id="mobile-search__box-btn" value="GO"></input>
+                        <i class="fa-sharp fa-solid fa-x" id="mobile-fa-x-icon"></i>
+                    </div>
+                </form>
+            </div>
+            <!-- start navbar -->
+            <nav class="header__navbar" id="navbar">
+                <!-- navbar top -->
+                <div class="header__navbar-top">
+                    <marquee id="marquee" direction="left" scrollamount="12">
+                        <label>
+                            <img
+                                src="https://cdn.shopify.com/s/files/1/0548/8554/8183/files/G2truck_Icon_bf73f90a-89ee-4d2c-9c9a-e8a1e5896f62_100x.png?v=1634630266">
+                            <span>WEKEND SALE! 15% OFF ON EVERYTHING*</span>
+                            <img
+                                src="https://cdn.shopify.com/s/files/1/0548/8554/8183/files/G2truck_Icon_bf73f90a-89ee-4d2c-9c9a-e8a1e5896f62_100x.png?v=1634630266">
+                            <span>FREE DELIVERY ON EVERY ORDER ABOVE 110$</span>
+                        </label>
+                    </marquee>
+                    <div class="set-language" id="language">
+                        <div class="language-item kr">
+                            <img src="./assets/images/ko_KR_32x24.png" alt="">
+                            <span>KR</span>
+                        </div>
+                        <div class="language-item en">
+                            <img src="./assets/images/en_US_32x24.png" alt="">
+                            <span>EN</span>
+                        </div>
+                    </div>
+                </div>
+                <!-- end navbar top -->
+                <!-- navbar link -->
+                <div class="header__navbar-bottom">
+                    <div class="header__navbar-bottom-left">
+                        <a href=""><img src="assets/images/T1_Logo.png" id="logot1"></a>
+                    </div>
+                    <div class="header__navbar-bottom-center">
+                        <ul>
+                            <li><a href="">home</a></li>
+                            <li><a href="">products</a></li>
+                            <li><a href="">new</a></li>
+                            <li><a href="">teams</a></li>
+                            <li><a href="">collaboration</a></li>
+                        </ul>
+                        <div class="mobile__set-language">
+                            <div class="mobile__language-item">
+                                <img src="./assets/images/ko_KR_32x24.png" alt="">
+                                <span>KR</span>
+                            </div>
+                            <div class="mobile__language-item">
+                                <img src="./assets/images/en_US_32x24.png" alt="">
+                                <span>EN</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="header__navbar-bottom-right">
+                        <ul>
+                            <li><a href=""><i class="fa-solid fa-user"></i></a></li>
+                            <li><a href=""><i class="fa-solid fa-cart-shopping"></i></a></li>
+                            <li><a><i id="scout-icon" class="fa-solid fa-magnifying-glass"></i></a></li>
+                            <form id="search__box">
+                                <div class="search__box-content">
+                                    <input type="text" id="search__box-input" placeholder="Type to search..." required>
+                                    <input type="submit" id="search__box-btn" value="GO"></input>
+                                    <i class="fa-sharp fa-solid fa-x" id="fa-x-icon"></i>
+                                </div>
+                            </form>
+                        </ul>
+                    </div>
+                </div>
+                <!-- end navbar link -->
+            </nav>
+            <!-- end navbar -->
+        </header>
+        <!-- star slider -->
+
+        <div class="wrap__slider">
+            <div class="wrap__slider-item">
+                <img src="./assets/images/Template7.jpg" alt="">
+            </div>
+            <div class="wrap__slider-ctrl"></div>
+        </div>
+
+
+    </div>
+
+</body>
+<!-- <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+<script>
+    AOS.init({
+        duration: 1000
+    });
+</script> -->
+<script src="./assets/js/main.js"></script>
+
+</html>
